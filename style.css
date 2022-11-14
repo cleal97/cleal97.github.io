@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: ComicNeue;
+    src: url(ComicNeue-Regular.ttf);
+}
+body {
+    font-family: ComicNeue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-image: url(./corazonesuwu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+
+        
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+
+    width: 160px;
+    height: 20px;
+    border: 3px solid black;
+}
+
+.box_loading {
+    animation: loading 4s;
+    height: 100%;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+@keyframes loading{
+    
+    0%{
+        
+        width: 0;
+    }
+    100%{
+        width: 100;
+        
+    }
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}   
+   
+p {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.imagen1{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 70%;
+    top: 60%;
+} 
+
+.imagen2{
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+}
+
+.imagen3{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+
+}
+
+.imagen4{
+
+    position: absolute;
+    left: 80%;
+    top: -5%;
+}
+
+.imagen5{
+    position: absolute;
+    left: 45%;
+    top: 80%;
+}
